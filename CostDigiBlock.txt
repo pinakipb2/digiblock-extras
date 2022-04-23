@@ -1,0 +1,18 @@
+Main Admin Login - 0.00027719ETH
+Add Admin - 0.00082406ETH
+Add Issuer - 0.00123869ETH
+Remove Admin - 0.00027113ETH
+
+User SignUp - 0.00062157ETH
+Requestor SignUp - 0.0005339ETH
+
+Issue Document B - 0.00153126ETH
+Issue Document D - 0.00141541ETH
+
+Request B - 0.00152768ETH
+Request D - 0.00141183ETH
+// After requesting for B successfully it didn't disable it but it did so for D
+
+Reject B - 0.00020582ETH
+Approve D - 0.00024208ETH
+Revoke D - 0.00024214ETH

@@ -1,0 +1,151 @@
+user registration -> only wallet id
+birth certificate issue -> 
+
+
+issuer -> birth certificate (govt)
+death ceritificate
+voter
+12th (cbse)
+
+new issuer 
+
+
+verifier -> 
+
+
+
+
+
+features :
+remove admins -> owneronly
+
+- todo:
+[-]other content pages padding bottom missing
+[-]if no record found on search give no results found and show no pagination (check current data.size and condition with pagination)
+[-]NO MATCHING RESULTS FOUND
+[-]add admins -> drawer
+[-]connection status tooltip
+[-]refactor variables and files
+[-]refactor and rearrange import statements using eslint
+[-]about page remove usestate, make only const object
+[x]add snapshot testing to every component
+[-]Avatar
+[-]remove admins -> modal (chakraui)
+[-]use react-countup in dashboard
+[-]Add email in smart contract
+[-]custom hook useEffect bug
+[-]dismissable alert
+[-]res send master key and hashed master key in one request after that another req for sending mail
+[-]check if mail is not sent error is catched and all other are processes stopped
+[-]check other admin status changing to verified on admin table
+[-]check profile page account public key
+[-]name .trim()
+[-]issuer cannot be admin and admin cannot be issuer
+
+[x]network id and name in env(config) file and change "correct network" to "${variable} network"
+[x]encrypt and upload
+[-]use pinata
+[-]backup mongodb every night
+[-]loading page in admin render in dashboard(admin section)
+[-]multiple dispatches running making website slow
+[-]add processing(loading button) in connect to metamask and login to dashboard
+[-]scope control in solidty (manage public and private data types)
+
+
+[-]Same class 10 doc cannnot be issued twice to same user
+[x]Solidity contract size reduce using import statement
+[-]change doc status -- and ++ variables
+[-]write tests for contract
+
+
+[x]api rate limit
+[x]api helmet, package-xss-clean
+[x]api route /api/v1/
+
+[-]await add to database in issuer part make it in then
+[-]redux observable
+[x]email send current year 
+[x]ipfshash in mapping
+[x]winston in mongodb API
+
+[-]change all accounts to lowercase while storing in solidity
+
+[x]table loading state
+
+[x]seperate useDetect
+[x]check if user exists in issue document
+[x]api upgrade
+
+[x]button add react tippy (user)
+
+[-]all button loading state
+[-]while going to dashboard wait for states
+
+[x]admin page dashboard count function in solidity
+
+[x]change loading gif
+
+[-]redux implement thunk
+[x]set icons
+[x]route like {{baseURL}}/dashboard/ is a faulty page (BUG)
+[-]main component check white color like footer (BUG)
+[x]optimization check from adminpro dashbaord from internship
+
+[x]Requestor button home page mailto
+[x]change all table paddings
+[x]change replace to replaceAll
+
+[x]check title of all pages
+
+[X]solidity add number of docs issued
+[x]add issuer tagsinput not coming to focus (BUG)
+
+[x]e.code === 4001 add else error
+[x]clean file structure
+[x]remove all console.log s
+
+[x]write content for dashboard page
+[x]move changelog.md one step up
+[x]add gulpfile lisence
+
+[x]baseURL, networkid and name in env file
+[x]edit store.js
+[x]add readme
+[x]API resource creation 201 status code
+
+[x]app.jsx div to <>
+
+[x]frontend correct solidity codes
+
+PENDING -> BsHourglassSplit / BsShieldFillExclamation
+ACCEPTED -> BsShieldFillCheck
+REJECTED -> BsShieldFillX
+REVOKED -> BsShieldSlashFill
+
+
+
+
+say user that the master key will be sent only once and is not store anywhere
+then bcrypt the master key and add it in blockchain and verify from user input
+
+encrypt the document with a variable key(document specific) and upload in IPFS
+encrypt the key with another algo having the IPFS hash as key and add it in blockchain.
+
+
+Issue Document -> file-signature
+Issued Documents -> folder-open
+
+type of document in solidity
+
+mapping (address => string[]) // issuer address to string array containing the various docs it issues
+dynamic form string parameter to solidity
+
+
+pratyusa.mukherjeefcs@kiit.ac.in
+
+Pinaki Bhattacharjee(1906620)
+Chandra Prakash(1906548)
+Sakshi Gairola(1906499)
+Sai Sradha Lala (1906498)
+
+15-20 slides

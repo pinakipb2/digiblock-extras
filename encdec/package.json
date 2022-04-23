@@ -1,0 +1,16 @@
+{
+  "name": "encdec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Pinaki Bhattacharjee <pinakipb2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aes256": "^1.1.0",
+    "crypto": "^1.0.1"
+  }
+}
